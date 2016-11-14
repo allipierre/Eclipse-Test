@@ -17,7 +17,9 @@ public class Paar<E, Z> {
 	}
 
 	public String toString() {
+		System.out.println("aa");
 		return "("+this.erstes() + "," + this.zweites()+")";
+		
 	}
 
 }
